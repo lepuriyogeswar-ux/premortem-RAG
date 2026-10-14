@@ -1,0 +1,62 @@
+[
+  {
+    "incident_id": "IND-001",
+    "domain": "industrial systems",
+    "system_type": "motor",
+    "title": "Bearing failure on conveyor drive motor",
+    "description": "A conveyor drive motor showed rising temperature and vibration before a bearing seizure caused an unplanned shutdown.",
+    "observed_symptoms": [
+      "Temperature rising above normal operating range",
+      "Increased vibration",
+      "Higher than normal power draw"
+    ],
+    "contributing_conditions": [
+      "Lubrication breakdown",
+      "Misalignment",
+      "Dust contamination"
+    ],
+    "documented_root_cause": "Lubrication starvation accelerated bearing wear and heat generation.",
+    "failure_mechanism": "Bearing friction increased, causing heat, vibration, and eventual seizure.",
+    "outcome_or_impact": "Production line stopped for 8 hours and repair cost exceeded threshold.",
+    "corrective_actions": ["Inspect bearings", "Replace lubricant", "Align shaft"],
+    "preventive_actions": ["Lubrication schedule", "Vibration monitoring", "Filter intake air"],
+    "source_title": "Industrial Motor Reliability Case Study",
+    "source_url": "https://example.com/industrial-motor-reliability", 
+    "source_file": "synthetic-case-study.txt",
+    "incident_date": "2024-04-01",
+    "provenance": "synthetic demonstration record",
+    "verification_status": "DOCUMENTED",
+    "is_synthetic": true,
+    "relevant_passage": "The motor ran hotter than expected and bearing temperature increased before the seizure. Lubrication breakdown and dust contamination were observed."
+  },
+  {
+    "incident_id": "IND-002",
+    "domain": "pipe and fluid systems",
+    "system_type": "pump",
+    "title": "Cavitation damaged centrifugal pump impeller",
+    "description": "A pump repeatedly cavitated after suction conditions changed, leading to impeller pitting and reduced flow.",
+    "observed_symptoms": [
+      "High noise",
+      "Low discharge pressure",
+      "Flow instability"
+    ],
+    "contributing_conditions": [
+      "Low net positive suction head",
+      "Partially closed suction valve",
+      "Vapor formation inside pump" 
+    ],
+    "documented_root_cause": "Insufficient suction head caused cavitation and impeller erosion.",
+    "failure_mechanism": "Vapor bubbles collapsed near the impeller, producing localized impact damage.",
+    "outcome_or_impact": "Pump efficiency fell and downstream process pressure became unstable.",
+    "corrective_actions": ["Open suction valve", "Adjust system head", "Inspect impeller"],
+    "preventive_actions": ["NPSH monitoring", "Suction line inspection", "Operator alarm thresholds"],
+    "source_title": "Pump Cavitation and Impeller Erosion Review",
+    "source_url": "https://example.com/pump-cavitation-review",
+    "source_file": "synthetic-pump-review.txt",
+    "incident_date": "2023-08-18",
+    "provenance": "synthetic demonstration record",
+    "verification_status": "DOCUMENTED",
+    "is_synthetic": true,
+    "relevant_passage": "Cavitation occurred when the suction head fell below required conditions. The noisy pump had reduced discharge pressure and visible impeller pitting."
+  }
+]
